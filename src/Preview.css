@@ -1,0 +1,49 @@
+.preview{
+    position: relative;
+    
+}
+
+.preview__close{
+    position: absolute;
+    top: 0;
+    margin-left: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.preview__toolbarRight{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-right: 6px;
+}
+
+.icon{
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px !important;
+}
+
+.preview__sendNow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 6px;
+    margin-bottom: 15px;
+    background-color: #fefc01;
+    padding: 8px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.preview__sendNow > h2{
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}

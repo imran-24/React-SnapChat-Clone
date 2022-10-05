@@ -1,0 +1,15 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.login > img{
+    width: 500px;
+    
+}
+
+.singin__button{
+    border: 1px solid gray !important;
+    font-size: 12px !important;
+
+}

@@ -1,0 +1,75 @@
+.chats{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    
+}
+.chats__header{
+    display: flex;
+    align-items: center;
+    background-color: deepskyblue;
+    height: 50px !important;
+    padding: 10px;
+}
+
+.avater__icon{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.chats__headerLeft{
+   
+}
+
+.chats__headerMiddle{
+    display: flex;
+    flex: 1;
+    color: white !important;
+    border-bottom: 1px soild white;
+    padding: 0 5px;
+}
+
+.chats__headerMiddle > input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.chats__headerMiddle > input::placeholder{
+    color: white;
+    
+}
+.chats__headerRight{
+   
+    color: white;
+}
+
+.chats__chatList{
+    box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
+    height: 450px;
+    background-color: white !important;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -9px !important;
+    overflow: scroll;
+}
+
+.chats__chatList::-webkit-scrollbar{
+    display: none;
+}
+
+.chats__chatList{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.webcam__button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgray !important;
+    cursor: pointer;
+}

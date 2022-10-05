@@ -1,0 +1,10 @@
+.chatview{
+    position: relative;
+}
+
+.chatview__timer{
+   
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
